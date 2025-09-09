@@ -7,7 +7,7 @@ const expenseRoutes = require('./routes/expenses');
 const errorHandler = require('./middleware/errorMiddleware');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 
 // Middleware
 app.use(cors());
